@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" >
+        <link rel="stylesheet" href="temperature.css">
+        <title>
+            converter
+        </title>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>temperature converter</h1>
+            <div class="input_box">
+                <label for="celsius">Celsius</label>
+                <input type="number" id="celsius" oninput="c_to_f()" place holder="value">
+            </div>
+            <div class="input_box">
+                <label for="fahrenheit">Fahrenheit</label>
+                <input type="number" id="fahrenheit" oninput="f_to_c()" place holder="value">
+            </div>
+        </div>
+        <script src="temperature.js"></script>
+    </body>
+</html>
